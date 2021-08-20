@@ -1,0 +1,47 @@
+body{
+    background-color: #fdecbc;
+}
+
+header{
+    text-align: center;
+}
+
+h1{
+    color: #2e4741;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 2.8em;
+}
+
+#img-div{
+    text-align: center;
+    background-color: rgba(69,90,85,0.3);
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    padding: 50px;
+    display: block;
+    margin: auto;
+}
+
+p, figcaption{
+    font-family: 'Libre Baskerville', serif;
+    line-height: 1.5em;
+}
+
+h2{
+    color: #2e4741;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.7em; 
+}
+
+li{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.1em;
+    line-height: 1.5em;
+}
+
+#quote{
+    font-style: italic;
+}
