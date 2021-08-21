@@ -1,0 +1,42 @@
+body{
+    background: url("bg.jpg") center;
+}
+
+header, form{
+    background-color: #104974;
+    width: 60%;
+    margin: auto;
+    padding: 10px;
+    color: #fefefe;
+    line-height: 1.5em;
+}
+
+header{
+    border: 5px solid #fefefe;
+}
+
+h1, p{
+    text-align: center;
+}
+
+label, input, select, textarea{
+    margin-bottom: 2em;
+}
+
+h1{
+    font-family: 'Orbitron', sans-serif;
+}
+
+p, label, input, select, textarea{
+    font-family: 'Space Mono', monospace;
+}
+
+#name, #email, #number, #dropdown, #comments{
+    width: 90%;
+}
+
+#submit{
+    padding: 10px;
+    border: 5px dashed #104974;
+    font-size: 1.5em;
+}
