@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Space explorer form</title>
+        <meta charset="utf-8">
+
+        <link href="main.css" rel="stylesheet" type="text/css">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Space+Mono&display=swap');
+        </style>
+
+        <script src="https://kit.fontawesome.com/160009cb55.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <header>
+            <h1 id="title">Ready to become a space explorer?</h1>
+            <p id="description">Thank you for your interest in our space exploration program! Please fill in the form below to complete your enrollment application.</p>
+        </header>
+
+        <hr>
+
+        <form id="survey-form">
+            <label for="name" id="name-label"><i class="fas fa-rocket"></i> Name:<br/>
+                <input type="text" id="name" placeholder="Name and surname" required>
+            </label><br/>
+
+            <label for="email" id="email-label"><i class="fas fa-rocket"></i> Email:<br/>
+                <input type="email" id="email" placeholder="Email address" required>
+            </label><br/>
+
+            <label for="number" id="number-label"><i class="fas fa-rocket"></i> Age:<br/>
+                <input type="number" id="number" placeholder="Age" min="15" max="90">
+            </label><br/>
+
+            <label for="radio" id="radio-label"><i class="fas fa-rocket"></i> Sex:<br/>
+                <input type="radio" name="sex" value="male">Male<br/>
+                <input type="radio" name="sex" value="female">Female
+            </label><br/>
+
+            <label for="dropdown" id="dropdown-label"><i class="fas fa-rocket"></i> Which of these statements describes you better?<br/>
+                <select id="dropdown" name="dropdown">
+                    <option value="astronaut">I'm a professional astronaut</option>
+                    <option value="education">I've taken courses on astrophysics</option>
+                    <option value="enthusiast">I'm just a space enthusiast</option>
+                </select>
+            </label><br/>
+
+            <label for="checkbox" id="checkbox-label"><i class="fas fa-rocket"></i> Which planet/s would you like to explore?<br/>
+                <input type="checkbox" value="mercury">Mercury<br/>
+                <input type="checkbox" value="venus">Venus<br/>
+                <input type="checkbox" value="mars">Mars<br/>
+                <input type="checkbox" value="jupiter">Jupiter<br/>
+                <input type="checkbox" value="saturn">Saturn<br/>
+                <input type="checkbox" value="uranus">Uranus<br/>
+                <input type="checkbox" value="neptune">Neptune<br/>
+                <input type="checkbox" value="pluto">Pluto
+            </label><br/>
+
+            <label for="comments" id="comments-label"><i class="fas fa-rocket"></i> Is there anything else you want to tell us?<br/>
+                <textarea id="comments">Write your comments here</textarea>
+            </label><br/>
+
+            <label for="submit" id="submit-label">
+                <input type="submit" id="submit" value="Submit">
+            </label>
+
+        </form>
+
+    </body>
+</html>
