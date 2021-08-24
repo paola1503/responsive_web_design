@@ -1,0 +1,99 @@
+body{
+    border: 0.8vw solid #DB9EB4;
+    margin: 0;
+    padding-bottom: 2vw;
+}
+          
+header{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #664752;
+    background-color: white;
+}
+
+nav{
+    margin-left: 30%;
+    text-transform: uppercase;
+}
+
+.nav-link{
+    padding-left: 2em;
+    color: black;
+    font-family: 'Merriweather', serif;
+    text-decoration: none;
+    letter-spacing: 0.1em;
+}
+
+.nav-link:hover{
+    color: #DB9EB4;
+}
+
+h1{
+    margin-top: 12%;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 3em;
+    color: #664752
+}
+
+h2{
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.7em;
+    color: #664752
+}
+
+p, #form-title, input{
+    font-family: 'Merriweather', serif;
+}
+
+section{
+    border-bottom: 3px dotted #664752;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+#description h2{
+    margin-bottom: -5%;
+}
+
+#description-content{
+    display: flex;
+    align-items: center;
+}
+
+#expansions-container{
+    display: grid;
+    grid-template-columns: repeat(3,30vw);
+    grid-row-gap: 5vw;
+    padding-bottom: 2%;
+    text-align: center;
+}
+
+@media(max-width: 800px){
+    #expansions-container{
+        grid-template-columns: 100vw;
+    }
+}
+
+#expansions-container img:hover{
+    width: 71%;
+}
+
+form{
+    text-align: center;
+}
+
+#email{
+    width: 50%;
+    height: 2vw;
+}
+
+#submit{
+    height: 2.5vw;
+    background-color: #664752;
+    color: white;
+    border-radius: 15%;
+}
